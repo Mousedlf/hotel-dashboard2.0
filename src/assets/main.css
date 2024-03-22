@@ -1,0 +1,20 @@
+@import './base.css';
+
+body{
+  background-color: white;
+  margin: 1rem;
+  max-height: 100vh;
+
+}
+
+p{
+  color: black;
+}
+
+h2{
+  font-size: 1rem;
+  font-weight: normal;
+  color: darkgray;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
