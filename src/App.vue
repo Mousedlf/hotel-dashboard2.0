@@ -3,6 +3,7 @@
   <div class="row d-flex vh-100">
     <div class="col-3">
 <singular-values/>
+      <revenu-detail/>
 
     </div>
 
@@ -17,6 +18,7 @@
       </div>
 
       <div class="">
+        <gauge/>
 
       </div>
     </div>
@@ -31,9 +33,11 @@ import {defineComponent} from "vue";
 import WebsiteVisitors from "@/components/websiteVisitors.vue";
 import Test from "@/components/singularValues.vue";
 import SingularValues from "@/components/singularValues.vue";
+import RevenuDetail from "@/components/revenuDetail.vue";
+import Gauge from "@/components/Gauge.vue";
 
 export default defineComponent({
-  components: {SingularValues, Test, WebsiteVisitors}
+  components: {Gauge, RevenuDetail, SingularValues, Test, WebsiteVisitors}
 })
 </script>
 
